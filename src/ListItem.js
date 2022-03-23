@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import './App.css'
 
 class ListItem extends Component {
     render () {
         return (
-            <li>{this.props.task}</li>
+            <div>
+                <li>{this.props.task}</li>
+            </div>
         )
     }
 }
