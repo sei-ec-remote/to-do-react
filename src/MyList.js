@@ -13,6 +13,15 @@ class MyList extends Component {
             <ul>
               {todoItems}
             </ul>
+              <form>
+                {/* adding items to the list */}
+                <label>
+                  <input type ='text' name='toDos' placeholder='Add to List'/>
+                </label>
+                <input type='submit' value='Add to list'/>
+              </form>
+              {/* finishing the list */}
+                <input type='submit' value='Finish the List'/>
         </div>
     )
   }
