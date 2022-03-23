@@ -4,9 +4,11 @@ import './App.css';
 class ListItem extends Component {
     render() {
         return(
-            <li>
-                Make the List!
-            </li>
+            <div>
+                <li>
+                    {this.props.task}
+                </li>
+            </div>
         )
     }
 }
