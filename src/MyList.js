@@ -8,11 +8,16 @@ class MyList extends Component {
     return <ListItem task={item} key={index} />
     })
     return (
-      <div>
+      <div className='center'>
         <h1> Things I should stop procrastinating:</h1>
-        <ul>
+        <ul className='list'>
           { todoItems }
         </ul>
+        <form action="" method="post">
+          <input type="text" name="toDos" id="" placeholder='Type an item here' />
+          <button type="submit">Add it!</button>
+        </form>
+        <button type="submit">Finished the list!</button>
       </div>
     )
   }

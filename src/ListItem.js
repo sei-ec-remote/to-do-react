@@ -5,7 +5,7 @@ class ListItem extends Component {
     render () {
         return (
             <div>
-                <li>{this.props.task}</li>
+                <li className='list'>{this.props.task}</li>
             </div>
         )
     }
