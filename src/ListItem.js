@@ -5,7 +5,6 @@ class ListItem extends Component
 {
     render()
     {
-        // console.log(this.listItemsJsx)
         return(
             <li>{this.props.item}</li>
         )
