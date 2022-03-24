@@ -8,7 +8,7 @@ const toDos = ["Read a great book", "Drink some Almond Milk", "Follow a Recipe"]
 
 ReactDOM.render(
   <React.StrictMode>
-    <MyList theList={toDos} />
+    < MyList theList={toDos} />
   </React.StrictMode>,
   document.getElementById('root')
 );
