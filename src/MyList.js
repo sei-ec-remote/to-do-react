@@ -13,7 +13,12 @@ class MyList extends Component {
         <ul>
         {todoItems}
         </ul>
-    </div>
+        <form action="" method="POST" />
+               <h4><label class="form-label">Add List Item: </label></h4>
+                    <input type="text" class="form-control" name="toDo" placeholder="enter to do list item..." />
+                    <input type="submit" class="btn btn-success" value="ADD LIST ITEM" /><br/>
+                  <br/><input type="submit" class="btn btn-success" value="FINISHED THE LIST" />
+      </div>
     )
   }
 }
