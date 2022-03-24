@@ -13,6 +13,14 @@ class MyList extends Component {
         <ul>
           {todoItems}
         </ul>
+
+        <form action="">
+          <input type="text" placeholder="Type and item here" />
+          <button>Add it!</button>
+        </form>
+
+        <button>Finished the list!</button>
+
       </div>
     )
   }
