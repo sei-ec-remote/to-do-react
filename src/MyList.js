@@ -14,6 +14,11 @@ class MyList extends Component {
           {/* < ListItem task="Buy ice cream" /> */}
           {todoItems}
         </ul>
+      <form>
+        <input type="text" name="toDos" placeholder='Type a to do' />
+        <input type="submit" value="submit" />
+      </form>
+
       </div>
     )
   }
