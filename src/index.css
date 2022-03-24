@@ -22,7 +22,6 @@ li {
   margin-bottom: 20px;
 }
 
-
 div {
   width: 500px;
   margin: auto;
@@ -33,6 +32,11 @@ ul {
   margin: auto;
 }
 
-button {
+form {
+  border: 3px double blue;
+}
+
+.add-new-button {
   margin-bottom: 10px;
 }
+

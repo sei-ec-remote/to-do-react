@@ -13,7 +13,13 @@ class MyList extends Component {
         <h1>Things To-Do Tonight:</h1>
         <ul>
           {this.todoItems}
-        </ul>
+        </ul><br />
+
+        <form>
+          <label for="task">Add a new to-do:</label><br />
+          <input type="text" id="task" name="task" /><br />
+          <input class="add-new-button" type="submit" value="Add the thing" />
+        </form>
       </div>
     )
   }
