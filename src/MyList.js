@@ -12,9 +12,16 @@ class MyList extends Component {
     return (
       <div>
         <h1>Things I should stop procrastinating:</h1>
-        <ul>
-          {todoItems}
-        </ul>
+          <ul>
+            {todoItems}
+          </ul>
+        <form>
+          <label>
+            Add to do:
+            <input type="text" name="todoItems" />
+          </label>
+          <input type="submit" value="Submit" />
+      </form>
       </div>
     )
   }
