@@ -10,6 +10,11 @@ body {
 }
 li {
   list-style-type: none;
+  /* border-bottom: 1px black solid; */
+}
+hr {
+  width: 10%;
+  margin: 0 auto;
 }
 
 code {
