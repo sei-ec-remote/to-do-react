@@ -5,10 +5,10 @@ import MyList from './MyList';
 import reportWebVitals from './reportWebVitals';
 
 const toDos = [
-'Finish tonights deliverable', 
-'Drink smoothie', 
-'Attempt to work on past deliverables', 
-'Add Test Script for users on Project Two'
+'Finish tonights deliverable \n', 
+'Drink smoothie \n', 
+'Attempt to work on past deliverables \n', 
+'Add Test Script for users on Project Two \n'
 ]
 ReactDOM.render(
   <React.StrictMode>
