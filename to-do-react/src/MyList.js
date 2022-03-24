@@ -12,6 +12,10 @@ class MyList extends Component {
       <h1> Things I Should stop procrastinating:</h1>
         <ul>
           {list}
+          <form>
+              <input type="text" name="toDo" placeholder='Type an item here'/>
+              <input type="submit" value="Finished the list!"/>
+          </form>
         </ul>      
       </>
     )
