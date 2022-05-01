@@ -14,6 +14,10 @@ class MyList extends Component {
         <ul>
           {todoItems}
         </ul>
+        <form>
+          <input type="text" value="Type an item here" />
+        </form>
+        <button class="add" value="Add it!" />
       </div>
     )
   }
