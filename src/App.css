@@ -9,6 +9,23 @@ body {
   font-family: 'Comic Sans MS', 'Papyrus', 'Helvetica', sans-serif
 }
 
+ul {
+  list-style: none;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-size: .5em;
+}
+
+li {
+  text-decoration: underline;
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }

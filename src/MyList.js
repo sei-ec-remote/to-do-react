@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './App.css'
 import ListItem from './ListItem'
+import AddItem from './AddItem'
+import FinishList from './FinishList'
 
 class MyList extends Component {
   render() {
@@ -14,6 +16,8 @@ class MyList extends Component {
         <ul>
           {todoItems}
         </ul>
+        <AddItem />
+        <FinishList />
       </div>
     )
   }
