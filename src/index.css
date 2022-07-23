@@ -5,6 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(144, 251, 155);
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: underline;
+  text-align: center;
 }
 
 code {
