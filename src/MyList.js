@@ -9,7 +9,7 @@ export default class MyList extends Component {
       <div>
         <h1>Things I should stop procrastinating:</h1>
         <ul>
-          <ListItem />
+          <ListItem task="Buy ice cream" />
         </ul>
       </div>
     )
