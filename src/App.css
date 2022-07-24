@@ -4,6 +4,11 @@ body {
   color: blue;
 }
 
+li {
+  list-style-type: none;
+}
+
+
 .App {
   text-align: center;
 }
