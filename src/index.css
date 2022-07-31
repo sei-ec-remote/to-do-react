@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: dodgerblue;
+  color:antiquewhite;
+  font-family: 'Optima Regular';
+  margin: auto;
+  border: solid 2px black;
+  border-radius: 20px;
+  padding-left: 15px;
 }
 
 code {
