@@ -1,0 +1,10 @@
+body {
+  background-color: aliceblue;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
