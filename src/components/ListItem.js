@@ -2,7 +2,7 @@ import React from 'react'
 import MyList from '../MyList'
 
 
-const ListItem = ({listItem: {listItem }}) => {
+const ListItem = ({listItem}) => {
     return (
         <div>
             <li>{listItem}</li>
