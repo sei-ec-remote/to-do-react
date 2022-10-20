@@ -1,6 +1,39 @@
+body {
+  background-color: rgb(179, 237, 17);
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+#submit-area-div {
+  margin-left: 50%;
+  left: -80px;
+  display: block;
+  height: 50px;
+  width: 235px;
+  position: relative;
+}
+#finished-the-list {
+  position: absolute;
+  left: 0px;
+  bottom: 3px;
+}
+#add-it {
+  position: absolute;
+  right: 0px;
+  top: 2px;
+}
+
 .App {
   text-align: center;
 }
+li {
+  list-style-type: none;
+  text-decoration: underline gray;
+  font-size: 30px;
+  text-align: center;
+}
+
 
 .App-logo {
   height: 40vmin;
