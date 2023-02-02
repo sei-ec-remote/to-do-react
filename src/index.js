@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import MyList from './MyList';
 // import reportWebVitals from './reportWebVitals';
-
+const toDoList =["Homework", "Laundry", "Any other cleaning"]
 ReactDOM.render(
-    <MyList />,
+    <MyList theList={toDoList}/>,
     document.getElementById('root')
 )
 

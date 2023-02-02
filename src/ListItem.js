@@ -3,7 +3,11 @@ import './App.css'
 
 class ListItem extends Component {
   render() {
-    return(<li>Make the list!</li>)
+    return (
+      <div>
+        <li>{this.props.task}</li>
+      </div>
+    )
   }
 }
 
