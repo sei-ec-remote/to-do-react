@@ -1,11 +1,7 @@
 import './ListItem.css'
 
-const ListItem = ({ task }) => {
-    return (
-        <>
-            <li>{task}</li>
-        </>
-    )
+const ListItem = ({ task, id }) => {
+    return <li key={id}>{task}</li>
 }
 
 export default ListItem
