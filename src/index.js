@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MyList from './MyList';
 import reportWebVitals from './reportWebVitals';
 
+const toDos = ['Eat muffins', 'Make a Mai Tai', 'Drink a Mai Tai','Make a Mai Tai','Watch Survivor', 'Drink a Mai Tai']
+
+  
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <MyList theList={toDos}/>,
+  document.getElementById('root'),
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
