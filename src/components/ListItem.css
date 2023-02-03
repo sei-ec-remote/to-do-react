@@ -1,0 +1,7 @@
+.my-list__task {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin-block-end: 0.5rem;
+    background-color: rgb(47, 6, 1);
+    border-radius: 0.25rem;
+}

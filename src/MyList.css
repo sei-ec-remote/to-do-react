@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: rgb(87, 13, 3);
+    color: rgb(214, 89, 73);
+}
+
+body {
+    font-size: 16px;
+}
+
+.my-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: min(960px, 97%);
+    padding-block: 5rem;
+    margin-inline: auto;
+}
+
+.my-list__form {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.my-list__list {
+    width: 20rem;
+    list-style: none;
+    padding: 0;
+}
+
+.my-list__input {
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+}
+
+.my-list__input:focus {
+    outline: 3px solid rgb(214, 89, 73);
+}
+
+.my-list__btn {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: rgb(176, 214, 73);
+    transition: background-color 150ms ease;
+    cursor: pointer;
+}
+
+.my-list__btn:hover {
+    background-color: rgb(214, 245, 126);
+}
